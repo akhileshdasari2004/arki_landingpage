@@ -1,73 +1,120 @@
-# Welcome to your Lovable project
+# Arki Landing Page
 
-## Project info
+A modern, responsive landing page built with React, TypeScript, and Tailwind CSS.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## Tech Stack
 
-There are several ways of editing your application.
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- shadcn-ui
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## Prerequisites
 
-Changes made via Lovable will be committed automatically to this repo.
+Before getting started, make sure you have the following installed:
 
-**Use your preferred IDE**
+- Node.js (v18 or higher recommended)
+- npm or bun
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Getting Started
 
-Follow these steps:
+### 1. Clone the repository
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+```bash
+git clone https://github.com/akhileshdasari2004/arki_landingpage.git
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### 2. Navigate into the project directory
 
-# Step 3: Install the necessary dependencies.
-npm i
+```bash
+cd arki_landingpage
+```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### 3. Install dependencies
+
+Using npm:
+
+```bash
+npm install
+```
+
+Or using bun:
+
+```bash
+bun install
+```
+
+### 4. Start the development server
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The app will be available at `http://localhost:5173` by default.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## Available Scripts
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+| Command | Description |
+|---|---|
+| `npm run dev` | Starts the local development server |
+| `npm run build` | Builds the project for production |
+| `npm run preview` | Previews the production build locally |
+| `npm run lint` | Runs ESLint across the codebase |
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## Project Structure
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```
+arki_landingpage/
+├── public/             # Static assets
+├── src/                # Application source code
+├── index.html          # HTML entry point
+├── vite.config.ts      # Vite configuration
+├── tailwind.config.ts  # Tailwind CSS configuration
+├── tsconfig.json       # TypeScript configuration
+└── package.json        # Project dependencies and scripts
+```
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## Deployment
 
-## Can I connect a custom domain to my Lovable project?
+To create a production build, run:
 
-Yes, you can!
+```bash
+npm run build
+```
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+This will output the compiled assets to the `dist/` folder. You can then deploy the contents of `dist/` to any static hosting provider such as Vercel, Netlify, or GitHub Pages.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
+
+## Contributing
+
+1. Fork the repository
+2. Create a new branch: `git checkout -b feature/your-feature-name`
+3. Make your changes and commit: `git commit -m "Add your message here"`
+4. Push to your branch: `git push origin feature/your-feature-name`
+5. Open a pull request
+
+---
+
+## License
+
+This project does not currently specify a license. All rights are reserved by the author unless stated otherwise.
+
+---
+
+## Author
+
+[akhileshdasari2004](https://github.com/akhileshdasari2004)
