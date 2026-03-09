@@ -197,7 +197,7 @@ const Hero2 = () => {
             {/* Hero Video/GIF */}
             <div className="relative glass-card p-2 overflow-hidden shadow-2xl shadow-primary/10 animate-float">
               <img
-                src="/images/demo.gif"
+                src="/images/1.jpg"
                 alt="ARKI product demo"
                 className="w-full h-auto rounded-lg"
                 loading="lazy"

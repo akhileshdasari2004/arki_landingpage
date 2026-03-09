@@ -43,13 +43,13 @@ const defaultFeatures: FeatureItem[] = [
   {
     id: 4,
     title: "Compare Details",
-    image: "https://static.wixstatic.com/media/8ae53d_cba99841b41f47ee92bc00236ca7e94c~mv2.jpg/v1/fill/w_1960,h_1254,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Feature2.jpg",
+    image: "/images/Feature2.avif",
     description: "Side-by-side comparison of design details across projects to identify best practices and maintain consistency.",
   },
   {
     id: 5,
     title: "AI Asset Versioning",
-    image: "https://static.wixstatic.com/media/8ae53d_98b07e7bca3b424b8a622ab7f4de7872~mv2.jpg/v1/fill/w_1960,h_1254,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Feature6.jpg",
+    image: "/images/Feature6.avif",
     description: "Intelligent version control that tracks changes across your design assets and eliminates duplicate work.",
   },
 ];

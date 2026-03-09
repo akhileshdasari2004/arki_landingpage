@@ -41,7 +41,7 @@ const Index = () => {
           </div>
           <div className="grid grid-cols-1 gap-4">
             <img
-              src="https://static.wixstatic.com/media/8ae53d_98b07e7bca3b424b8a622ab7f4de7872~mv2.jpg/v1/fill/w_1960,h_1254,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Feature6.jpg"
+              src="/images/Feature6.avif"
               alt="AI asset versioning"
               className="rounded-2xl object-cover w-full shadow-2xl border border-primary/5"
             />
@@ -61,7 +61,7 @@ const Index = () => {
           </div>
           <div className="grid grid-cols-1 gap-4">
             <img
-              src="https://static.wixstatic.com/media/8ae53d_cba99841b41f47ee92bc00236ca7e94c~mv2.jpg/v1/fill/w_1960,h_1254,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Feature2.jpg"
+              src="/images/Feature2.avif"
               alt="Side-by-side comparison"
               className="rounded-2xl object-cover w-full shadow-2xl border border-primary/5"
             />
